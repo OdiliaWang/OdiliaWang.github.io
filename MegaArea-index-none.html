@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="zh"
+      data-layout="horizontal"
+      data-layout-style="detached"
+      data-sidebar="light"
+      data-topbar="light"
+      data-sidebar-size="lg"  
+      data-preloader="disable">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兆豐證券｜定期定額買台股</title>
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/img/megafavicon.ico">
+    <!--Swiper slider css-->
+    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <!-- gridjs css -->
+    <link rel="stylesheet" href="assets/libs/gridjs/theme/mermaid.min.css">
+    <!-- Layout config Js -->
+    <script src="assets/js/layout.js"></script>
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />  
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <!-- custom Css-->
+    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+        <header id="page-topbar">
+            <div class="layout-width">
+                <div class="navbar-header">
+                    <div class="d-flex align-items-center">
+                        <!-- LOGO -->
+                        <button type="button" class="btn btn-sm px-3 fs-10 header-item vertical-menu-btn topnav-hamburger first-button" id="topnav-hamburger-icon" aria-label="Toggle navigation" aria-expanded="false">
+                            <div class="animated-icon1"><span></span><span></span><span></span></div>
+                        </button>
+                        
+                        <div class="">
+                            <a href="MegaArea-index.html" class="">
+                                <span class="">
+                                    <img src="assets/img/svg/MegaArea.svg" alt="" height="35">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Topbar-->
+                    <div class="d-flex align-items-center">
+                    <!--Notification Button-->
+                        <div class="dropdown topbar-head-dropdown ms-1 header-item" id="notificationDropdown">
+                            <button type="button" class="btn btn-icon btn-ghost-secondary rounded-circle" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+                                <i class='bx bx-bell fs-22' ></i>
+                                <span class="position-absolute topbar-badge fs-10 translate-middle badge rounded-pill bg-primary">3<span class="visually-hidden">未讀訊息</span></span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+
+                                <div class="dropdown-head bg-primary rounded-top">
+                                    <div class="p-3">
+                                        <div class="row align-items-center">
+                                            <div class="col">
+                                                <h6 class="m-0 fs-16 fw-semibold text-white"> 訊息 </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="px-2 pt-2">
+                                        <ul class="nav nav-tabs dropdown-tabs nav-tabs-custom" data-dropdown-tabs="true" id="notificationItemsTab" role="tablist">
+                                            <li class="nav-item waves-effect waves-light">
+                                                <a class="nav-link active" data-bs-toggle="tab" href="#all-noti-tab" role="tab" aria-selected="true">
+                                                    全部 (4)
+                                                </a>
+                                            </li>
+                                            <li class="nav-item waves-effect waves-light">
+                                                <a class="nav-link" data-bs-toggle="tab" href="#messages-tab" role="tab" aria-selected="false">
+                                                    近期提醒
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                        <!--全部-->                               
+                                        <div class="tab-content position-relative" id="notificationItemsTabContent">
+                                            <div class="tab-pane fade show active py-2 ps-2" id="all-noti-tab" role="tabpanel">
+                                                <div data-simplebar style="max-height: 300px;" class="pe-2">
+                                                    <!--First Notification-->
+                                                    <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                                        <!--icon-->
+                                                        <div class="d-flex">
+                                                            <div class="avatar-xs me-3">
+                                                                <span class="avatar-title bg-soft-secondary text-secondary rounded-circle fs-16">
+                                                                    <i class="mdi mdi-currency-usd"></i>
+                                                                </span>
+                                                            </div>
+                                                            <!--Notice Wording-->
+                                                            <div class="flex-1">
+                                                                <a href="" class="stretched-link">
+                                                                    <h6 class="mt-0 mb-2 lh-base">交割款通知：帳戶將在02/03交割款項1000元，記得確認銀行餘額足夠喔～
+                                                                    </h6>
+                                                                </a>
+                                                                <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                                    <span><i class="mdi mdi-clock-outline"></i> 今日</span>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            <!--Second Notification-->
+                                            <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                                <!--icon-->
+                                                <div class="d-flex">
+                                                    <div class="avatar-xs me-3">
+                                                        <span class="avatar-title bg-soft-warning text-warning rounded-circle fs-16">
+                                                            <i class="mdi mdi-file-document-edit-outline"></i>
+                                                        </span>
+                                                    </div>
+                                                    <!--Notice Wording-->
+                                                    <div class="flex-1">
+                                                        <a href="" class="stretched-link">
+                                                            <h6 class="mt-0 mb-2 lh-base">您的OOOOOO將於2023/03/31到期，請於到期前7日完成更新
+                                                            </h6>
+                                                        </a>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 2023/02/01</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--Third Notification-->
+                                            
+                                            <!--Fourth Notification-->
+                                            <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                                <!--icon-->
+                                                <div class="d-flex">
+                                                    <div class="avatar-xs me-3">
+                                                        <span class="avatar-title bg-soft-secondary text-secondary rounded-circle fs-16">
+                                                            <i class="mdi mdi-currency-usd"></i>
+                                                        </span>
+                                                    </div>
+                                                    <!--Notice Wording-->
+                                                    <div class="flex-1">
+                                                        <a href="" class="stretched-link">
+                                                            <h6 class="mt-0 mb-2 lh-base">期貨保證金追繳通知：帳戶將在01/04繳交保證金3000元，記得確認銀行餘額足夠喔～
+                                                            </h6>
+                                                        </a>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 2023/01/02</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--近期提醒-->
+                                    <div class="tab-pane fade py-2 ps-2" id="messages-tab" role="tabpanel" aria-labelledby="messages-tab">
+                                        <div data-simplebar style="max-height: 300px;" class="pe-2">
+                                            <!--First Notification-->
+                                            <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                                <!--icon-->
+                                                <div class="d-flex">
+                                                    <div class="avatar-xs me-3">
+                                                        <span class="avatar-title bg-soft-secondary text-secondary rounded-circle fs-16">
+                                                            <i class="mdi mdi-currency-usd"></i>
+                                                        </span>
+                                                    </div>
+                                                    <!--Notice Wording-->
+                                                    <div class="flex-1">
+                                                        <a href="" class="stretched-link">
+                                                            <h6 class="mt-0 mb-2 lh-base">交割款通知：帳戶將在02/03交割款項1000元，記得確認銀行餘額足夠喔～
+                                                            </h6>
+                                                        </a>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 今日</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!--Second Notification-->
+                                            <div class="text-reset notification-item d-block dropdown-item position-relative">
+                                                <!--icon-->
+                                                <div class="d-flex">
+                                                    <div class="avatar-xs me-3">
+                                                        <span class="avatar-title bg-soft-secondary text-secondary rounded-circle fs-16">
+                                                            <i class="mdi mdi-currency-usd"></i>
+                                                        </span>
+                                                    </div>
+                                                    <!--Notice Wording-->
+                                                    <div class="flex-1">
+                                                        <a href="" class="stretched-link">
+                                                            <h6 class="mt-0 mb-2 lh-base">期貨保證金追繳通知：帳戶將在01/04繳交保證金3000元，記得確認銀行餘額足夠喔～
+                                                            </h6>
+                                                        </a>
+                                                        <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                                            <span><i class="mdi mdi-clock-outline"></i> 2023/01/02</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- individual block-->
+                        <div class="dropdown ms-sm-1 header-item">
+                            <button type="button" class="btn btn-icon btn-ghost-secondary rounded-circle" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="d-flex align-items-center">
+                                    <img class="rounded-circle header-profile-user" src="assets/img/user-dummy-img.jpg" alt=" ">
+                                </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <!-- item-->
+                                <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">整戶維持率</span></a>
+                                <a class="dropdown-item" href="MegaArea-online-signin.html"><i class="ri-file-paper-2-line text-muted fs-16 align-middle me-1"></i> <span class="align-middle">簽署中心</span></a>
+                                <a class="dropdown-item" href="MegaArea-edda-dashboard.html"><i class="ri-shield-check-line text-muted fs-16 align-middle me-1"></i> <span class="align-middle">核印專區</span></a>  
+                                <a class="dropdown-item" href="MegaArea-persnldata-mod-1.html"><i class="ri-user-settings-line text-muted fs-16 align-middle me-1"></i> <span class="align-middle">個資修改</span></a>
+                                <a class="dropdown-item" href="MegaArea-auth-pass-change.html"><i class="mdi mdi-lock text-muted fs-16 align-middle me-1"></i> <span class="align-middle">密碼變更</span></a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="MegaArea-subscription-center.html"><i class="ri-mail-settings-line text-muted fs-16 align-middle me-1"></i> <span class="align-middle">訂閱中心</span></a>
+                                <a class="dropdown-item" href="MegaArea-index.html#service"><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">更多服務</span></a>
+                                <a class="dropdown-item" href="#"><i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">登出</span></a>
+                            </div>
+                        </div> <!-- end individual block -->
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <!-- 移除訊息 Modal -->
+    <div id="removeNotificationModal" class="modal fade zoomIn" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"> 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="NotificationModalbtn-close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mt-2 text-center">
+                        <lord-icon src="https://cdn.lordicon.com/gsqxdxog.json" trigger="loop" colors="primary:#fc5e6e,secondary:#fc5e6e" style="width:100px;height:100px"></lord-icon>
+                        <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
+                            <h4>刪除訊息</h4>
+                            <p class="text-muted mx-4 mb-0">您要將訊息刪除嗎 ? 此動作將無法復原。</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
+                        <button type="button" class="btn w-sm btn-dark" data-bs-dismiss="modal">取消</button>
+                        <button type="button" class="btn w-sm btn-primary" id="delete-notification">確認</button>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+        <!-- ========== App Menu ========== -->
+        <div class="app-menu navbar-menu">
+
+            <div id="scrollbar">
+                <div class="container-fluid">
+                    <div id="two-column-menu">
+                    </div>
+                    <ul class="navbar-nav justify-content-center" id="navbar-nav">
+                        <li class="menu-title">
+                            <span data-key="t-menu">
+                                <img src="assets/img/svg/MegaArea.svg" alt="" height="35">
+                            </span>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="MegaArea-myInvestock-dashboard.html" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="">
+                                <i class="ri-dashboard-3-line"></i> <span data-key="t-apps">定期定額買台股</span>
+                            </a>
+                        </li> <!-- end 定期定額 Menu -->
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#masterArea" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="">
+                                <i class="ri-funds-box-line"></i> <span data-key="t-apps">策略選股</span>
+                            </a>
+                        </li> <!-- end 策略選股 Menu -->
+
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="MegaArea-online-signin.html" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="sidebarContracts">
+                                <i class="ri-file-paper-2-line"></i> <span data-key="t-pages">簽署中心</span>
+                            </a>
+                        </li><!-- end 簽署中心 Menu -->
+
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="MegaArea-edda-dashboard.html" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="sidebarContracts">
+                                <i class="ri-shield-check-line"></i> <span data-key="t-pages">核印專區</span>
+                            </a>
+                        </li><!-- end 核印專區 Menu -->
+
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarOnlineOpen" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarOnlineOpen">
+                                <i class="ri-account-circle-line"></i> <span data-key="t-authentication">線上開戶</span>
+                            </a>
+                            <div class="collapse menu-dropdown" id="sidebarOnlineOpen">
+                                <ul class="nav nav-sm flex-column">
+                                    <li class="nav-item">
+                                        <a href=" " class="nav-link" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="SubBrokerageOp" data-key="Op-SubB"> 複委託線上開戶
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href=" " class="nav-link" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="ECOp" data-key="Op-EC"> 財富管理線上開戶
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href=" " class="nav-link" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="StockSTOp" data-key="Op-stockST"> 信用線上開戶
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href=" " class="nav-link" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="StockSKOp" data-key="Op-stockSK"> 有價證券借貸線上開戶
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href=" " class="nav-link" data-bs-toggle="" role="button" aria-expanded="false" aria-controls="StockS2Op" data-key="Op-stockS2"> 不限用途款項借貸線上開戶
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li><!-- end 線上開戶 Menu -->
+                        
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarOtherLink" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarOtherLink">
+                                <i class="ri-pages-line"></i> <span data-key="t-megasec-link">相關連結</span>
+                            </a>
+                            <div class="collapse menu-dropdown" id="sidebarOtherLink">
+                                <ul class="nav nav-sm flex-column">
+                                    <li class="nav-item">
+                                        <a href="https://www.emega.com.tw/" class="nav-link" data-key="megasec-link"> 兆豐證券理財網 </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://www.megasia.com.tw/" class="nav-link" data-key="megasec-link"> 兆豐國際投顧 </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="http://www.megafutures.com.tw/" class="nav-link" data-key="megasec-link"> 兆豐期貨 </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>           
+                <!-- Sidebar -->
+            </div>
+
+            <div class="sidebar-background"></div>
+        </div>
+        <!-- Left Sidebar End -->
+        <!-- Vertical Overlay-->
+        <div class="vertical-overlay"></div>
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center align-items-center mt-4 mb-3">
+                            <div class="col-xl-12">
+                                <div class="row gx-3 mt-4 mb-3">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <select class="form-select mb-2" aria-label="select Account">
+                                            <option selected value="1">證-營業部0108496 錢多多</option>
+                                            <option value="2">複-天母分公司051923 錢多多</option>
+                                            <option value="3">複-松德分公司0309456 郝有錢</option>
+                                        </select>
+                                    </div>
+                                    <div class="d-grid gap-2 d-md-block col-xl-3 col-lg-2 col-md-6">
+                                        <button type="button" class="btn btn-primary btn-sm">查詢</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--頁首 Cards-->
+                        <div class="row">
+                            <div class="col-lg col-md-12">
+                                <div class="card card-height-100">
+                                    <div class="card-header d-flex">
+                                        <h4 class="mb-0 flex-grow-1">定期定額買台股</h4>
+                                        <div class="flex-shrink-0"></div>
+                                    </div><!-- end card header -->
+                                    <div class="card-body p-4 text-center"> 
+                                        <div class="row justify-content-center align-items-center" >
+                                            <div class="col-12 p-4 m-sm-5">
+                                                <h5 class="text-center">未申辦此業務<br>需先簽署契約書方可申請</h5>
+                                                <a type="button" class="btn btn-primary w-lg waves-light">前往簽署</a>
+                                            </div>
+                                        </div>
+                                    </div><!-- end card body -->
+                                </div><!-- end card -->
+                            </div><!-- end col -->
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card card-height-100">
+                                    <div class="card-header">
+                                        <h4 class="mb-0">借貸專區</h4>
+                                    </div>
+                                    <div class="card-body p-4 text-center">
+                                        <div class="row justify-content-center align-items-center" >
+                                            <div class="col-12 p-4 m-sm-5">
+                                                <h5 class="text-center">未申辦此業務<br>需先簽署契約書方可申請</h5>
+                                                <a type="button" class="btn btn-primary w-lg waves-light">前往簽署</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card card card-height-100">
+                                    <div class="card-header">
+                                        <h4 class="mb-0">我是您的營業員</h4>
+                                    </div>
+                                    <div class="card-body p-4 text-center flex-column mx-sm-3">
+                                        <div class="mx-auto avatar-lg mt-2 mb-3">
+                                            <img src="assets/img/emply-woman.png" alt="" class="img-fluid rounded-circle">
+                                        </div>
+                                        <h5 class="mb-1">天母分公司 尤小美</h5>
+                                        <p class="text-muted mb-2">02-23435488 分機168</p>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <a href="https://www.emega.com.tw/emegaTran/saleSpot.do" target="_blank" class="btn btn-primary"> 營業據點查詢 </a>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+                        </div><!-- end 前段 row -->
+
+                        <!--中段 Cards-->                        
+                        <div class="row row-cols-lg-5">
+                            <div class="col">
+                                <div class="card card-body card-animate">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mx-auto avatar-lg">
+                                            <img src="assets/img/img-2.jpg" alt="" class="img-fluid rounded-circle">
+                                        </div>
+                                    </div>
+                                    <a href="javascript:void(0)" class="btn btn-light btn-sm waves-effect">線上開戶</a>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col">
+                                <div class="card card-body card-animate">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mx-auto avatar-lg">
+                                            <img src="assets/img/img-3.jpg" alt="" class="img-fluid rounded-circle">
+                                        </div>
+                                    </div>
+                                    <a href="MegaArea-online-signin.html" class="btn btn-light btn-sm waves-effect">簽署中心</a>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col">
+                                <div class="card card-body card-animate">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mx-auto avatar-lg">
+                                            <img src="assets/img/img-4.jpg" alt="" class="img-fluid rounded-circle">
+                                        </div>
+                                    </div>
+                                    <a href="MegaArea-edda-dashboard.html" class="btn btn-light btn-sm waves-effect">核印專區</a>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col">
+                                <div class="card card-body card-animate">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mx-auto avatar-lg">
+                                            <img src="assets/img/img-5.jpg" alt="" class="img-fluid rounded-circle">
+                                        </div>
+                                    </div>
+                                    <a href="https://www.emega.com.tw/Spaper/login.do?returnUrl=/index.do" target="_blank" class="btn btn-light btn-sm waves-effect">理財電子報</a>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col">
+                                <div class="card card-body card-animate">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mx-auto avatar-lg">
+                                            <img src="assets/img/img-6.jpg" alt="" class="img-fluid rounded-circle">
+                                        </div>
+                                    </div>
+                                    <a href="https://www.emega.com.tw/emegaTran/calendarRestMonth.do" target="_blank" class="btn btn-light btn-sm waves-effect">海外休市日</a>
+                                </div>
+                            </div><!-- end col -->
+                        </div><!-- end  中段 row -->
+                                               
+                        <!--策略選股 Cards-->
+                        <div class="row">
+                            <div class="col-xl-6" id="masterArea">
+                                <div class="card card-height-100">
+                                    <div class="card-header align-items-center d-flex">
+                                        <h4 class="mb-0 flex-grow-1">策略大師</h4>
+                                        <div class="flex-shrink-0">
+                                            <a href="#" class="btn btn-primary btn-sm">前往</i></a>
+                                        </div>
+                                    </div><!-- end card header -->
+                                    <div class="card-body p-0">
+                                        <div>
+                                            <img src="assets/img/img-7.png" alt="" class="img-fluid"> 
+                                        </div>
+                                    </div><!-- end cardbody -->                                       
+                                </div><!-- end card -->
+                            </div><!-- end col -->
+
+                            <div class="col-xl-6">
+                                <div class="card card-height-100">
+                                    <div class="card-header align-items-center d-flex">
+                                        <h4 class="mb-0 flex-grow-1">選股大師</h4>
+                                        <div class="flex-shrink-0">
+                                            <a href="#" class="btn btn-primary btn-sm">前往</a>
+                                        </div>
+                                    </div><!-- end card header -->
+                                    <div class="card-body p-0">
+                                        <div>
+                                            <img src="assets/img/img-8.png" alt="" class="img-fluid"> 
+                                        </div>
+                                    </div><!-- end cardbody -->
+                                </div><!-- end card -->
+                            </div><!-- end col -->
+                        </div><!-- end row -->
+
+                        <!--頁尾 Cards-->
+                        <div class="row">
+                            <div class="col-12 mt-4">
+                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                                    <h3 class="mb-sm-0 text-primary"><strong>更多服務</strong></h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row row-cols-xl-6 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-2" id="service">
+                            <div class="col">
+                                <div class="card card-animate border-end border-danger border-10">
+                                    <div class="card-body">                                        
+                                        <div class="mb-0 align-items-center">
+                                            <a href="MegaArea-subscription-center.html" class="btn btn-ghost-light btn-sm text-dark fs-16">訂閱中心 <i class="ri-arrow-right-s-line align-middle fs-16"></i></a>                                              
+                                        </div>
+                                    </div>
+                                </div><!-- end card-body -->
+                            </div><!-- end col -->
+
+                            <div class="col">
+                                <div class="card card-animate border-end border-danger border-10">
+                                    <div class="card-body">                                        
+                                        <div class="mb-0 align-items-center">
+                                            <a href="#" class="btn btn-ghost-light btn-sm text-dark fs-16">個資修改 <i class="ri-arrow-right-s-line align-middle fs-16"></i></a>                                              
+                                        </div>
+                                    </div>
+                                </div><!-- end card-body -->
+                            </div><!-- end col -->
+
+                            <div class="col">
+                                <div class="card card-animate border-end border-danger border-10">
+                                    <div class="card-body">                                        
+                                        <div class="d-flex mb-0 justify-content-between align-items-center">
+                                            <a href="MegaArea-auth-pass-change.html" class="btn btn-ghost-light btn-sm text-dark fs-16">密碼變更 <i class="ri-arrow-right-s-line align-middle fs-16"></i></a>                                              
+                                        </div>
+                                    </div>
+                                </div><!-- end card-body -->
+                            </div><!-- end col -->
+
+                            <div class="col">
+                                <div class="card card-animate border-end border-success border-10">
+                                    <div class="card-body">                                        
+                                        <div class="d-flex mb-0 justify-content-between align-items-center">
+                                            <a href="#" class="btn btn-ghost-light btn-sm text-dark fs-16">公開收購 <i class="ri-arrow-right-s-line align-middle fs-16"></i></a>                                              
+                                        </div>
+                                    </div>
+                                </div><!-- end card-body -->
+                            </div><!-- end col -->
+
+                            <div class="col">
+                                <div class="card card-animate border-end border-success border-10">
+                                    <div class="card-body">                                        
+                                        <div class="d-flex mb-0 justify-content-between align-items-center">
+                                            <a href="#" class="btn btn-ghost-light btn-sm text-dark fs-16">期權拆組 <i class="ri-arrow-right-s-line align-middle fs-16"></i></a>                                              
+                                        </div>
+                                    </div>
+                                </div><!-- end card-body -->
+                            </div><!-- end col -->
+
+                            <div class="col">
+                                <div class="card card-animate border-end border-warning border-10">
+                                    <div class="card-body">                                        
+                                        <div class="d-flex mb-0 justify-content-between align-items-center">
+                                            <a href="MegaArea-apply-epassbook.html" target="_blank" class="btn btn-ghost-light btn-sm text-dark fs-16">集保e存摺 <i class="ri-arrow-right-s-line align-middle fs-16"></i></a>                                              
+                                        </div>
+                                    </div>
+                                </div><!-- end card-body -->
+                            </div><!-- end col -->
+                        </div><!-- end row -->
+
+                        <!-- footer -->
+                        <div class="footer">
+                            <div class="row text-center justify-content-center">
+                                <div class="col-lg-8 col-md-8 col-sm-12">
+                                    <p class=""><small>兆豐證券股份有限公司 客服專線(02)2351-7017</small></p>
+                                </div>
+                            </div>
+                        </div>                                    
+                                                          
+                    </div>
+                    <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+        </div>
+        <!-- end main content-->
+    </div>
+    <!-- END layout-wrapper -->
+
+
+
+    <!--start back-to-top-->
+    <button onclick="topFunction()" class="btn btn-primary btn-icon" id="back-to-top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <!--end back-to-top-->
+
+    <!--preloader-->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner-border text-primary avatar-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/hamburger.js"></script>
+    <script src="assets/js/myInvestock-products.js"></script>
+
+    <!-- apexcharts -->
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+    
+    <!-- piecharts init -->
+    <script src="assets/js/pages/2apexcharts-pie.init.js"></script>
+
+    <!-- App js -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
