@@ -1,0 +1,176 @@
+#page-topbar{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:75px;
+    min-height: 60px;
+    background: #fff;
+    border-top: 0.4em solid #a90044;
+}
+
+.animated-icon1  {
+    width:  30px;
+    height:  20px;
+    position:  relative;
+    margin:  0px;
+    -webkit-transform:  rotate(0deg);
+    -moz-transform:  rotate(0deg);
+    -o-transform:  rotate(0deg);
+    transform:  rotate(0deg);
+    -webkit-transition:  .5s ease-in-out;
+    -moz-transition:  .5s ease-in-out;
+    -o-transition:  .5s ease-in-out;
+    transition:  .5s ease-in-out;
+    cursor:  pointer;
+}
+.animated-icon1 span  {
+    display:  block;
+    position:  absolute;
+    height:  3px;
+    width:  100%;
+    border-radius:  9px;
+    opacity:  1;
+    left:  0;
+    -webkit-transform:  rotate(0deg);
+    -moz-transform:  rotate(0deg);
+    -o-transform:  rotate(0deg);
+    transform:  rotate(0deg);
+    -webkit-transition:  .25s ease-in-out;
+    -moz-transition:  .25s ease-in-out;
+    -o-transition:  .25s ease-in-out;
+    transition:  .25s ease-in-out;
+}
+.animated-icon1 span  {
+    background:  #878a99;
+}
+.animated-icon1 span:nth-child(1)  {
+    top:  0px;
+}
+.animated-icon1 span:nth-child(2)  {
+    top:  10px;
+}
+.animated-icon1 span:nth-child(3)  {
+    top:  20px;
+}
+.animated-icon1.open span:nth-child(1)  {
+    top:  11px;
+    -webkit-transform:  rotate(135deg);
+    -moz-transform:  rotate(135deg);
+    -o-transform:  rotate(135deg);
+    transform:  rotate(135deg);
+}
+.animated-icon1.open span:nth-child(2)  {
+    opacity:  0;
+    left:  -60px;
+}
+.animated-icon1.open span:nth-child(3)  {
+    top:  11px;
+    -webkit-transform:  rotate(-135deg);
+    -moz-transform:  rotate(-135deg);
+    -o-transform:  rotate(-135deg);
+    transform:  rotate(-135deg);
+}
+
+.btn-filter {
+    padding:0.45rem 8.45rem;
+}
+
+.btn-xs {
+    padding:0.35rem 0.45rem;
+    font-size: 0.65rem;
+}
+
+.btn-card {
+  --vz-card-spacer-y: 0.875rem;
+  --vz-card-spacer-x: 1.25rem;
+  --vz-card-title-spacer-y: 0.5rem;
+  --vz-card-border-radius: 0.75rem;
+  --vz-card-inner-border-radius: 0.75rem;
+  --vz-card-cap-bg: #fff;
+  --vz-card-bg: #fff;
+  --vz-card-img-overlay-padding: 1rem;
+  --vz-card-group-margin: 0.75rem;
+  font-weight: 600;
+  color: #878a99;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 0;
+  height: var(--vz-card-height);
+  word-wrap: break-word;
+  background-color: var(--vz-card-bg);
+  background-clip: border-box;
+  border: var(--vz-card-border-width) solid var(--vz-card-border-color);
+  border-radius: var(--vz-card-border-radius);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.btn-card-animate:hover {
+    background-color:#fff;
+    color:#895A9E;
+    -webkit-transform: translateY(calc(-1.5rem / 5));
+            transform: translateY(calc(-1.5rem / 5));
+    -webkit-box-shadow: 0 5px 10px rgba(144, 144, 144, 0.12);
+            box-shadow: 0 5px 10px rgba(144, 144, 144, 0.12);
+}
+
+.badge-lg {
+    --vz-badge-padding-x: 1em;
+    --vz-badge-padding-y: 0.7em;
+    --vz-badge-font-size: 0.9em;
+    --vz-badge-font-weight: 400;
+    --vz-badge-color: #fff;
+    --vz-badge-border-radius: 0.25rem;
+    display: inline-block;
+    padding: var(--vz-badge-padding-y) var(--vz-badge-padding-x);
+    font-size: var(--vz-badge-font-size);
+    font-weight: var(--vz-badge-font-weight);
+    line-height: 1;
+    color: var(--vz-badge-color);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: var(--vz-badge-border-radius);
+}
+
+.text-dark:hover, .text-dark:hover {
+    color: #EB416E !important;
+}
+
+.ul.card-list {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ul.card-list li {
+    float: left;
+    padding: 20rem;
+    width: 70px;
+}
+
+.ul.card-list li a {
+    color: #fff;
+}
+
+.ul.card-list li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ul.card-list li span {
+    font-weight:400;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+}
+
+/*# sourceMappingURL=custom.min.css.map */
