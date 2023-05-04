@@ -1,0 +1,268 @@
+[   
+    {
+        "id": 1,
+        "stockType": "ETF",
+        "companyName": "元大台灣50",
+        "industryType": "0050"
+    },{
+        "id": 2,
+        "stockType": "ETF",
+        "companyName": "元大中型100",
+        "industryType": "0051"
+    },{
+        "id": 3,
+        "stockType": "ETF",
+        "companyName": "元大電子",
+        "industryType": "0053"
+    },{
+        "id": 4,
+        "stockType": "ETF",
+        "companyName": "元大MSCI金融",
+        "industryType": "0055"
+    },{
+        "id": 5,
+        "stockType": "ETF",
+        "companyName": "元大高股息",
+        "industryType": "0056"
+    },{
+        "id": 6,
+        "stockType": "ETF",
+        "companyName": "元大寶滬深",
+        "industryType": "0061"
+    },{
+        "id": 7,
+        "stockType": "ETF",
+        "companyName": "元大富櫃50",
+        "industryType": "006201"
+    },{
+        "id": 8,
+        "stockType": "ETF",
+        "companyName": "元大MSCI台灣",
+        "industryType": "006203"
+    },{
+        "id": 9,
+        "stockType": "ETF",
+        "companyName": "元大上證50",
+        "industryType": "006206"
+    },{
+        "id": 10,
+        "stockType": "ETF",
+        "companyName": "期元大S&P黃金",
+        "industryType": "00635U"
+    },{
+        "id": 11,
+        "stockType": "ETF",
+        "companyName": "國泰中國A50",
+        "industryType": "00636"
+    },{
+        "id": 12,
+        "stockType": "ETF",
+        "companyName": "期元大S&P石油",
+        "industryType": "00642U"
+    },{
+        "id": 13,
+        "stockType": "ETF",
+        "companyName": "元大S&P500",
+        "industryType": "00646"
+    },{
+        "id": 14,
+        "stockType": "ETF",
+        "companyName": "元大歐洲50",
+        "industryType": "00660"
+    },{
+        "id": 15,
+        "stockType": "ETF",
+        "companyName": "元大日經225",
+        "industryType": "00661"
+    },{
+        "id": 16,
+        "stockType": "ETF",
+        "companyName": "元大美債20年",
+        "industryType": "00679B"
+    },{
+        "id": 17,
+        "stockType": "ETF",
+        "companyName": "期元大美元指數",
+        "industryType": "00682U"
+    },{
+        "id": 18,
+        "stockType": "ETF",
+        "companyName": "兆豐藍籌30",
+        "industryType": "00690"
+    },{
+        "id": 19,
+        "stockType": "ETF",
+        "companyName": "元大美債7-10",
+        "industryType": "00679B"
+    },{
+        "id": 20,
+        "stockType": "ETF",
+        "companyName": "國泰股利精選30",
+        "industryType": "00701"
+    },{
+        "id": 21,
+        "stockType": "ETF",
+        "companyName": "元大台灣高息低波",
+        "industryType": "00713"
+    },{
+        "id": 22,
+        "stockType": "ETF",
+        "companyName": "元大美債1-3",
+        "industryType": "00719B"
+    },{
+        "id": 23,
+        "stockType": "ETF",
+        "companyName": "元大投資級公司債",
+        "industryType": "00720B"
+    },{
+        "id": 24,
+        "stockType": "ETF",
+        "companyName": "元大中國債3-5",
+        "industryType": "00721B"
+    },{
+        "id": 25,
+        "stockType": "ETF",
+        "companyName": "國泰AI + Robo",
+        "industryType": "00737"
+    },{
+        "id": 26,
+        "stockType": "ETF",
+        "companyName": "期元大道瓊白銀",
+        "industryType": "00738U"
+    },{
+        "id": 27,
+        "stockType": "ETF",
+        "companyName": "元大MSCI A股",
+        "industryType": "00739"
+    },{
+        "id": 28,
+        "stockType": "ETF",
+        "companyName": "元大AAA至A公司債",
+        "industryType": "00751B"
+    },{
+        "id": 29,
+        "stockType": "ETF",
+        "companyName": "統一FANG +",
+        "industryType": "00757"
+    },{
+        "id": 30,
+        "stockType": "ETF",
+        "companyName": "元大全球AI",
+        "industryType": "00762"
+    },{
+        "id": 31,
+        "stockType": "ETF",
+        "companyName": "元大US高息特別股",
+        "industryType": "00771"
+    },{
+        "id": 32,
+        "stockType": "ETF",
+        "companyName": "元大10年IG銀行債",
+        "industryType": "00786B"
+    },{
+        "id": 33,
+        "stockType": "ETF",
+        "companyName": "元大10年IG醫療債",
+        "industryType": "00787B"
+    },{
+        "id": 34,
+        "stockType": "ETF",
+        "companyName": "元大10年IG電能債",
+        "industryType": "00788B"
+    },{
+        "id": 35,
+        "stockType": "ETF",
+        "companyName": "國泰費城半導體",
+        "industryType": "00830"
+    },{
+        "id": 36,
+        "stockType": "ETF",
+        "companyName": "元大臺灣ESG永續",
+        "industryType": "00850"
+    },{
+        "id": 37,
+        "stockType": "ETF",
+        "companyName": "元大全球未來通訊",
+        "industryType": "00861"
+    },{
+        "id": 38,
+        "stockType": "ETF",
+        "companyName": "元大15年EM主權債",
+        "industryType": "00870B"
+    },{
+        "id": 39,
+        "stockType": "ETF",
+        "companyName": "國泰網路資安",
+        "industryType": "00875"
+    },{
+        "id": 40,
+        "stockType": "ETF",
+        "companyName": "元大全球5G",
+        "industryType": "00876"
+    },{
+        "id": 41,
+        "stockType": "ETF",
+        "companyName": "國泰永續高股息",
+        "industryType": "00878"
+    },{
+        "id": 42,
+        "stockType": "ETF",
+        "companyName": "國泰台灣5G +",
+        "industryType": "00881"
+    },{
+        "id": 43,
+        "stockType": "個股",
+        "companyName": "台泥",
+        "industryType": "1101"
+    },{
+        "id": 44,
+        "stockType": "個股",
+        "companyName": "台塑",
+        "industryType": "1301"
+    },{
+        "id": 45,
+        "stockType": "個股",
+        "companyName": "南亞",
+        "industryType": "1303"
+    },{
+        "id": 46,
+        "stockType": "個股",
+        "companyName": "台化",
+        "industryType": "1326"
+    },{
+        "id": 47,
+        "stockType": "個股",
+        "companyName": "中鋼",
+        "industryType": "2002"
+    },{
+        "id": 48,
+        "stockType": "個股",
+        "companyName": "台達電",
+        "industryType": "2308"
+    },{
+        "id": 49,
+        "stockType": "個股",
+        "companyName": "鴻海",
+        "industryType": "2317"
+    },{
+        "id": 50,
+        "stockType": "個股",
+        "companyName": "台積電",
+        "industryType": "2330"
+    },{
+        "id": 51,
+        "stockType": "個股",
+        "companyName": "中華電",
+        "industryType": "2412"
+    },{
+        "id": 52,
+        "stockType": "個股",
+        "companyName": "玉山金",
+        "industryType": "2884"
+    },{
+        "id": 53,
+        "stockType": "個股",
+        "companyName": "寶成",
+        "industryType": "9904"
+    }
+]
